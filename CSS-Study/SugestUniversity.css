@@ -1,0 +1,59 @@
+/* main {
+   
+    width: 1280px;
+}   */
+.university {
+    margin-top: 40px;
+
+}
+
+.robot {
+    float: right;
+    width: 65px;
+    right: 30px ;
+    position :relative;
+  }
+  
+.university h1 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 46px;
+}
+
+.line {
+    border: 2px solid yellow;
+}
+
+/* university list */
+.uni{
+    margin-bottom: 20px;
+    display: flex;
+}
+.university-img img{
+    
+    width: 200px;
+}
+.uni-title{
+    
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.uni-title .logo{
+    width: 50px;
+    position: absolute;
+    left: 381px;
+}
+.btn-apply{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: royalblue;
+    border: 0;
+    color: white;
+}
+.btn-apply:hover{
+    background-color: #6610f2;
+
+}
